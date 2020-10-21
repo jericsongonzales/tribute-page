@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float');
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: #eeeeee;
+}
+
+a:visited{
+    color: #74638f;
+}
+
+a:hover{
+    color: hsla(46, 87%, 54%, 0.705);
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.5;
+    color: #333333;
+    font-family: Rajdhani,Helvetica,Sans-serif;
+}
+
+iframe
+{
+    margin-top: 15px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url('../images/basketball-court-floor.jpg');
+    border-top:solid 5px hsla(46, 87%, 54%, 0.705);
+}
+
+
+#title {
+background: #111111;
+color: whitesmoke;
+text-align: center;
+padding: 5px;
+border-bottom: solid 5px hsla(46, 87%, 54%, 0.705);
+text-transform: uppercase;
+text-shadow: 1px 1px 2px hsla(46, 87%, 54%, 0.705);
+}
+
+
+#title header{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#img-div{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#img-caption{
+    background-color: rgb(8, 8, 8);
+    color: honeydew;
+    font-size: 14px;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+
+}
+
+#image {
+    max-width: 50%;
+    display: block;
+    height: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid hsla(46, 87%, 54%, 0.705);
+    margin: 0 auto;
+}
+
+h1{
+font-weight: 700;
+font-size: 4.5em;
+line-height: 50px;
+letter-spacing: 15px;
+color: white;
+} 
+
+
+h2 { 
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 10px;
+    margin-top: 10px;
+    color: goldenrod;
+} 
+
+date{
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.8em;
+} 
+    
+
+#tribute-info{
+    display: flex;
+    max-width: 950px;
+    margin:  15px auto;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+    padding: 15px;
+}
+
+#tribute-link
+{
+    text-decoration: none;
+}
+
+
+.timeline-header{
+    background-color: black;
+    opacity: 0.8;
+    font-size: 1.4em;
+    margin: 0px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+strong{
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
+
+
+footer{
+    background-color:#111111;
+    border-top:solid 5px hsla(46, 87%, 54%, 0.705);
+}
+
+footer *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > blockquote{
+    background-color: hsla(46, 87%, 54%, 0.705);
+    padding: 10px;
+    max-width: 700px;
+    margin: 5vh auto 5vh auto;
+    border: solid hsla(46, 87%, 60%);
+    border-radius: 10px;
+    color: black;
+    line-height: 1.3;
+}
+
+.reference{
+    color: hsla(46, 87%, 54%, 0.705);
+}
+
+.footerbutton
+{
+    border: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    background-color: goldenrod;
+    margin: 10px;
+}
+
+.footerbutton:hover
+{
+    background-color: gray;
+}
+
+.parallax {
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+@media (max-width: 460px) {
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+    
+    @media (max-width: 460px) {
+#main {
+    margin: 0;
+}
+}
+    
+@media (max-width: 460px) {
+#tribute-info {
+    font-size: 1.4rem;
+}
+}
+    
+    @media (max-width: 460px) {
+        footer{
+            font-size: 1.4rem;
+            margin: 0;
+        }
+    }}
